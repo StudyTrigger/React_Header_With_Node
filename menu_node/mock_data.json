@@ -1,0 +1,36 @@
+[
+  {
+    "menuName": "Home",
+    "pathName": "/home",
+    "componentName": "HomeComponent",
+    "subMenu": [],
+    "role": "all"
+  },
+  {
+    "menuName": "About",
+    "pathName": "/about",
+    "componentName": "AboutComponent",
+    "subMenu": [],
+    "role": "all"
+  },
+  {
+    "menuName": "Dashboard",
+    "pathName": "/dashboard",
+    "componentName": "DashboardComponent",
+    "subMenu": [
+      {
+        "menuName": "User Stats",
+        "pathName": "/dashboard/user-stats",
+        "componentName": "UserStatsComponent",
+        "role": "admin"
+      },
+      {
+        "menuName": "Reports",
+        "pathName": "/dashboard/reports",
+        "componentName": "ReportsComponent",
+        "role": "admin"
+      }
+    ],
+    "role": "admin"
+  }
+]
