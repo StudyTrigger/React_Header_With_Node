@@ -13,7 +13,7 @@ This project is a simple React-based web application with a **dynamic navbar men
 ### **1. Clone the Repository**
 ### There are 2 folders in project : 
 ### 1. Node Project  named  menu_node : install dependencies with "npm install".
-### 2. React Project name menu_react : install dependencies with "npm instaa".
+### 2. React Project name menu_react : install dependencies with "npm install".
 
 **To run this project :**
 1. Create a database "MenuDB", and inside it, create a collection called "Menu", then Add data using "Import JSON and CSV file.
